@@ -10,7 +10,33 @@
     <form method="get" action="poslato.html">
       <div>
         <label for="UserName">korisnicko ime</label>
-        <input type="text" name="UserName" id="UserName" required placeholder="Miki" />
+        <input
+          type="text"
+          name="UserName"
+          id="UserName"
+          required
+          placeholder="Miki"
+        />
+      </div>
+      
+      <div>
+        <label for="UserPass">Lozinka</label>
+        <input type="password" name="UserPass" id="UserPass" required />
+      </div>
+      
+      <div>
+        <label for=""
+          >Email
+          <input type="email" name="UserEmail" id="UserEmail" required readonly value="toniproxy@gmail.com" />
+        </label>
+      </div>
+      
+      <div>
+        <label for="UserCity">Mjesto</label>
+        <select name="UserCity" id="UserCity"></select>
+        <option value="1">Podgorica</option>
+        <option value="2">Kotor</option>
+        <option value="3" selected>Tivat</option>
       </div>
       <input type="submit" value="Posalji" />
     </form>
