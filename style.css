@@ -21,3 +21,23 @@ h1 {
   margin: 20px;
   padding: 10px;
 }
+
+.main-menu ul li {
+  display: inline-block;
+}
+
+.main-menu ul li a {
+  color: green;
+  text-decoration: none;
+  display: inline-block;
+}
+
+cta-link,
+.moj-tekst,
+button {
+  font-size: 23px;
+}
+
+.contact-link {
+  border: 1px, solid red;
+}
