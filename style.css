@@ -41,3 +41,7 @@ button {
 .contact-link {
   border: 1px, solid red;
 }
+
+.main-menu ul li:last-child {
+  border: 2px solid red ;
+}
