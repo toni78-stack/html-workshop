@@ -5,15 +5,6 @@
   border: 1px solid red;
 }
 
-h1 {
-  color: rgb(41, 14, 59);
-  text-decoration: underline;
-  background-color: rgb(87, 50, 16);
-  margin-bottom: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .glavni-div {
   background-color: blue;
   height: 100px;
@@ -70,4 +61,10 @@ button {
 
 .yellow-box {
   background-color: yellow;
+}
+
+.text-wrapper {
+  font-family: Arial;
+  color: grey;
+  padding: 20px;
 }
