@@ -48,6 +48,10 @@ button {
   border: 1px, solid red;
 }
 
+.main-menu ul li:first-child a {
+  border: 2px solid green;
+}
+
 .main-menu ul li:last-child a {
   border: 2px solid red;
 }
@@ -55,4 +59,9 @@ button {
 .main-menu > a {
   font-size: 30px;
   font-weight: 900px;
+}
+
+.box {
+  width: 200px;
+  height: 150px;
 }
