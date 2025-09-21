@@ -38,12 +38,21 @@ button {
   font-size: 23px;
 }
 
+a.cta-link,
+p-moj-tekst,
+button {
+  font-size: 23px;
+}
+
 .contact-link {
   border: 1px, solid red;
 }
 
-.main-menu ul li:last-child {
-  border: 2px solid red ;
+.main-menu ul li:last-child a {
+  border: 2px solid red;
 }
 
-.main-menu
+.main-menu > a {
+  font-size: 30px;
+  font-weight: 900px;
+}
