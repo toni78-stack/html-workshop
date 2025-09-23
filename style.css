@@ -5,6 +5,10 @@
   border: 1px solid red;
 }
 
+body {
+  font-family: Arial;
+}
+
 .glavni-div {
   background-color: blue;
   height: 100px;
@@ -64,6 +68,11 @@ button {
 }
 
 .text-wrapper {
-  font-family: Arial;
   color: grey;
+  font-style: italic;
+}
+
+.text-wrapper,
+testing {
+  line-height: 20px;
 }
