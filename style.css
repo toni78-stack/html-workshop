@@ -80,5 +80,7 @@ testing {
 }
 
 .hero-section {
-  background-color: aqua;
+  background-image: url("img/snst.png");
+  background-size: contain;
+  height: 90vh;
 }
