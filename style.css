@@ -83,6 +83,6 @@ testing {
   background-image: url("img/snst.png");
   background-size: contain;
   background-attachment: fixed;
-
   height: 90vh;
+  text-align: center;
 }
