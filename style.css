@@ -78,3 +78,7 @@ testing {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+.hero-section {
+  background-color: aqua;
+}
