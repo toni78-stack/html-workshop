@@ -82,5 +82,7 @@ testing {
 .hero-section {
   background-image: url("img/snst.png");
   background-size: contain;
+  background-attachment: fixed;
+
   height: 90vh;
 }
