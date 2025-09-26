@@ -85,10 +85,13 @@ testing {
   background-attachment: fixed;
   height: 90vh;
   text-align: center;
+  padding-top: 200px;
+  padding: 15px;
+  padding-right: 15px;
 }
 
 .hero-section .hero-box {
-  width: 700pxq;
+  max-width: 600px;
   background-color: rgba(255, 255, 255, 0.7);
   margin: auto;
 }
