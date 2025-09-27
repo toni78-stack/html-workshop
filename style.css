@@ -76,7 +76,7 @@ button {
 testing {
   line-height: 20px;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  text-transform: lowercaseS;
 }
 
 .hero-section {
