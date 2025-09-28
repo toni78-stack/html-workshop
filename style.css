@@ -95,4 +95,5 @@ testing {
   margin: auto;
   padding: 30px;
   height: 350px;
+  overflow: hidden;
 }
