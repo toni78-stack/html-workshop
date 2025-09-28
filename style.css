@@ -9,93 +9,10 @@ body {
   font-family: Arial;
 }
 
-.glavni-div {
-  background-color: blue;
-  height: 100px;
-  width: 400px;
-  margin: 20px;
-  padding: 10px;
+img {
+  width: 100%;
 }
 
-.main-menu ul li {
-  display: inline-block;
-}
-
-.main-menu ul li a {
-  color: green;
-  text-decoration: none;
-  display: inline-block;
-}
-
-cta-link,
-.moj-tekst,
-button {
-  font-size: 23px;
-}
-
-a.cta-link,
-p-moj-tekst,
-button {
-  font-size: 23px;
-}
-
-.contact-link {
-  border: 1px, solid red;
-}
-
-.main-menu ul li:first-child a {
-  border: 2px solid green;
-}
-
-.main-menu ul li:last-child a {
-  border: 2px solid red;
-}
-
-.main-menu > a {
-  font-size: 30px;
-  font-weight: 900px;
-}
-
-.box {
-  width: 150px;
-  height: 90px;
-  border: 1px solid brown;
-  display: inline-block;
-}
-
-.yellow-box {
-  background-color: yellow;
-}
-
-.text-wrapper {
-  color: grey;
-  font-style: italic;
-}
-
-.text-wrapper,
-testing {
-  line-height: 20px;
-  letter-spacing: 2px;
-  text-transform: lowercaseS;
-}
-
-.hero-section {
-  background-image: url("img/snst.png");
-  background-size: contain;
-  background-attachment: fixed;
-  background-position: center;
-  height: 90vh;
-  text-align: center;
-  padding: 100 15 0 15px;
-}
-
-.hero-section .hero-box {
+.image-wrapper {
   max-width: 600px;
-  background-color: rgba(255, 255, 255, 0.7);
-  margin: auto;
-  padding: 30px;
-  height: 350px;
-  overflow: hidden;
-  border-radius: 50px;
-  border: 1px solid white;
 }
