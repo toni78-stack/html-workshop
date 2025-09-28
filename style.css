@@ -13,6 +13,9 @@ img {
   width: 100%;
 }
 
-.image-wrapper {
-  max-width: 600px;
+.card-box {
+  max-width: 300px;
+  margin: auto;
+  background-color: aquamarine;
+  padding: 15px;
 }
