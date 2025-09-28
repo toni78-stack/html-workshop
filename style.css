@@ -15,16 +15,25 @@ img {
 
 .card-box {
   max-width: 300px;
-  margin: auto;
   background-color: aquamarine;
   padding: 15px;
   margin-top: 30px;
   border-radius: 10px;
-   display: inline-block;
+  display: inline-block;
 }
 
 .card-box img,
 h2,
 p {
   margin-bottom: 20px;
+}
+
+.stoic-wrapper {
+  max-width: 650px;
+  margin: auto;
+}
+
+.card-box img {
+  height: 150px;
+  object-fit: contain;
 }
