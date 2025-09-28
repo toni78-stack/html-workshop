@@ -96,4 +96,6 @@ testing {
   padding: 30px;
   height: 350px;
   overflow: hidden;
+  border-radius: 50px;
+  border: 1px solid white;
 }
