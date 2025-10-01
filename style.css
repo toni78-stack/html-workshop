@@ -37,3 +37,17 @@ p {
   height: 150px;
   object-fit: contain;
 }
+
+.wrapper-box {
+  max-width: 500px;
+  height: 300px;
+  margin: 100px;
+  border: 2px solid rebeccapurple;
+
+}
+
+.move-me {
+  border: 2px solid blue;
+  padding: 10px;
+  display: inline-block;
+}
