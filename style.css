@@ -47,18 +47,3 @@ p {
   padding: 30px;
 }
 
-.wrapper-box2 {
-  border: 2px solid green;
-  height: 100%;
-  position: relative;
-}
-
-.move-me {
-  border: 2px solid blue;
-  padding: 10px;
-  display: inline-block;
-  position: absolute;
-
-  right: 30px;
-  bottom: 30px;
-}
