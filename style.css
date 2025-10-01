@@ -43,11 +43,20 @@ p {
   height: 300px;
   margin: 100px;
   border: 2px solid rebeccapurple;
+  position: relative;
+  padding: 30px;
+}
 
+.wrapper-box2 {
+  border: 2px solid green;
+  height: 100%;
 }
 
 .move-me {
   border: 2px solid blue;
   padding: 10px;
   display: inline-block;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 }
