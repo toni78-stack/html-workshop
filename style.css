@@ -16,19 +16,17 @@ img {
 .stoic-wrapper {
   max-width: 1100px;
   margin: auto;
-  display: flex;
-  gap: 10px;
+  display: grid;
   border: 3px solid green;
   padding: 10px;
-  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
 }
 
 .card-box {
   background-color: aquamarine;
   padding: 15px;
-  margin-top: 30px;
   border-radius: 10px;
-  flex-basis: 32%;
 }
 
 .card-box img,
