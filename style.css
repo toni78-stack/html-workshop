@@ -19,7 +19,7 @@ img {
   display: grid;
   border: 3px solid green;
   padding: 10px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
 
@@ -27,6 +27,14 @@ img {
   background-color: aquamarine;
   padding: 15px;
   border-radius: 10px;
+}
+
+.card-box.stoic1 {
+  grid-column: span 2;
+}
+
+.card-box.stoic2 {
+  grid-column: span 2;
 }
 
 .card-box img,
