@@ -60,3 +60,15 @@ p {
   background-color: red;
   padding: 10px;
 }
+
+.other-info {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.other-info p {
+  background-color: brown;
+  margin-bottom: 0;
+}
