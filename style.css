@@ -19,7 +19,7 @@ img {
   display: grid;
   border: 3px solid green;
   padding: 10px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
 
@@ -27,12 +27,16 @@ img {
   background-color: aquamarine;
   padding: 15px;
   border-radius: 10px;
+  transition: 0.3s;
 }
 
-.card-box.stoic1 {
-  grid-column: span 2;
+.card-box:hover {
+  transform: scale(1.05);
+  box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
 }
 
+.card-box.stoic1,
 .card-box.stoic2 {
   grid-column: span 2;
 }
@@ -62,8 +66,8 @@ p {
 }
 
 .other-info {
-  display: flex;
-  gap: 5px;
+  display: grid;
+  gap: 10px;
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
