@@ -27,13 +27,13 @@ img {
   background-color: aquamarine;
   padding: 15px;
   border-radius: 10px;
-  transition: 0.3s;
+  transition: transform 0.5s ease-in-out 1s;
 }
 
 .card-box:hover {
   transform: scale(1.05);
   box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.3);
-  transition: 0.3s;
+  opacity: 0.3;
 }
 
 .card-box.stoic1,
@@ -75,4 +75,20 @@ p {
 .other-info p {
   background-color: brown;
   margin-bottom: 0;
+}
+
+.moja-forma {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex direction: coloumn;
+}
+
+.moja-forma input:focus {
+  outline: none;
+  font-size: 20px;
+}
+
+.moja-forma button:active {
+  transform: scale(0.7);
 }
