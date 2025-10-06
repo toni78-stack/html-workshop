@@ -27,7 +27,7 @@ img {
   background-color: aquamarine;
   padding: 15px;
   border-radius: 10px;
-  transition: transform 0.5s ease-in-out 1s;
+  transition: 0.2s ;
 }
 
 .card-box:hover {
@@ -65,6 +65,12 @@ p {
   padding: 10px;
 }
 
+.price::after {
+  content: "€";
+  display: inline-block;
+  margin-left: 5px
+}
+
 .other-info {
   display: grid;
   gap: 10px;
@@ -91,4 +97,24 @@ p {
 
 .moja-forma button:active {
   transform: scale(0.7);
+}
+
+.nav a:visited {
+  color: red;
+}
+
+ul {
+  max-width: 300px;
+  margin: auto;
+  list-style: none;
+}
+
+ul li {
+  font-size: 28px;
+}
+
+ul li::before {
+  content: "🔥";
+  margin-right: 5px;
+  font-size: 20px;
 }
