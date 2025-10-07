@@ -126,6 +126,11 @@ ul li::before {
   height: 100px;
   background-color: purple;
   margin: 30px auto;
+  animation-name: zaobli-ivice;
+  animation-duration: 2s;
+  border-radius: 10px;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
 }
 
 @keyframes zaobli-ivice {
