@@ -130,7 +130,19 @@ ul li::before {
   animation-duration: 2s;
   border-radius: 10px;
   animation-iteration-count: infinite;
-  animation-direction: reverse;
+  animation-timing-function: linear;
+}
+
+.animacija-vjezba2 {
+  width: 100px;
+  height: 100px;
+  background-color: goldenrod;
+  margin: 30px auto;
+  animation-name: zaobli-ivice;
+  animation-duration: 2s;
+  border-radius: 10px;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes zaobli-ivice {
