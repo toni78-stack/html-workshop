@@ -149,7 +149,7 @@ ul li::before {
     border-radius: 10px;
     }
   70% {
-    transform: translateX(50px);
+    transform: translate(50px, 100px);
   }
   100% {
     border-radius: 100%;
