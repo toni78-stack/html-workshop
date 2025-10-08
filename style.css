@@ -126,13 +126,8 @@ ul li::before {
   height: 100px;
   background-color: purple;
   margin: 30px auto;
-  animation-name: zaobli-ivice;
-  animation-duration: 2s;
   border-radius: 10px;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
+ animation: zaobli-ivice 2s linear 0s infinite alternate both;
 }
 
 .animacija-vjezba:hover {
@@ -143,15 +138,19 @@ ul li::before {
 @keyframes zaobli-ivice {
   0% {
     border-radius: 10px;
+    transform: translate(0, 0);
   }
   50% {
     transform: rotate(45deg);
     border-radius: 10px;
+    transform: translate(0, 0);
     }
   70% {
     transform: translate(50px, 100px);
   }
   100% {
     border-radius: 100%;
+    background-color: red;
+    transform: translate(50px, 100px);
   }
 }
