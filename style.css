@@ -127,11 +127,12 @@ ul li::before {
   background-color: purple;
   margin: 30px auto;
   animation-name: zaobli-ivice;
-  animation-duration: 10s;
+  animation-duration: 2s;
   border-radius: 10px;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
   animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
 }
 
 @keyframes zaobli-ivice {
@@ -139,9 +140,10 @@ ul li::before {
     border-radius: 5px;
   }
   50% {
-    transform: rotate(30deg);
+    transform: rotate(45deg);
+    border-radius: 10px;
   }
   100% {
-    border-radius: 15px;
+    border-radius: 100%;
   }
 }
