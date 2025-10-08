@@ -132,16 +132,24 @@ ul li::before {
   animation-direction: alternate;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 5s;
+  animation-play-state: running;
 }
+
+.animacija-vjezba:hover {
+  animation-play-state: paused;
+}
+
 
 @keyframes zaobli-ivice {
   0% {
-    border-radius: 5px;
+    border-radius: 10px;
   }
   50% {
     transform: rotate(45deg);
     border-radius: 10px;
+    }
+  70% {
+    transform: translateX(50px);
   }
   100% {
     border-radius: 100%;
