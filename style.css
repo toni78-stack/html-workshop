@@ -122,35 +122,32 @@ ul li::before {
 }
 
 .animacija-vjezba {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   background-color: purple;
   margin: 30px auto;
-  border-radius: 10px;
- animation: zaobli-ivice 2s linear 0s infinite alternate both;
+  animation-name: cool-animacija;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
 }
 
-.animacija-vjezba:hover {
-  animation-play-state: paused;
+@keyframes cool-animacija {
+ 0% {
+  border-radius: opx;
+  transform: rotate(0);
 }
+ 25% {
+  border-radius: 50% 0 0 0;
+  transform: rotate(45deg);
+ }
+ 50% {
+    border-radius: 50% 50% 0 0;
+  transform: rotate(4deg);
+ }
+ 75% {
 
+ }
+ 100% {
 
-@keyframes zaobli-ivice {
-  0% {
-    border-radius: 10px;
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: rotate(45deg);
-    border-radius: 10px;
-    transform: translate(0, 0);
-    }
-  70% {
-    transform: translate(50px, 100px);
-  }
-  100% {
-    border-radius: 100%;
-    background-color: red;
-    transform: translate(50px, 100px);
-  }
+ }
 }
