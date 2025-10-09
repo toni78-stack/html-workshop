@@ -126,36 +126,18 @@ ul li::before {
   height: 200px;
   background-color: purple;
   margin: 30px auto;
-  animation-name: cool-animacija;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+  animation: myAnim 2s ease 0s 1 normal forwards;
 }
 
-@keyframes cool-animacija {
- 0% {
-  border-radius: opx;
-  transform: rotate(0);
-  background-color: purple;
-}
- 25% {
-  border-radius: 50% 0 0 0;
-  transform: rotate(45deg);
-  background-color: black;
- }
- 50% {
-    border-radius: 50% 50% 0 0;
-   transform: rotate(90deg);
-   background-color: red;
- }
- 75% {
-   border-radius: 50% 50% 50% 0;
-  transform: rotate(135deg);
-  background-color: black;
- }
- 100% {
-  border-radius: 50% 50% 50% 50%;
-  transform: rotate(180deg);
-  background-color: blue;
- }
+ @keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
 }
