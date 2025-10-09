@@ -128,26 +128,34 @@ ul li::before {
   margin: 30px auto;
   animation-name: cool-animacija;
   animation-duration: 4s;
-  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes cool-animacija {
  0% {
   border-radius: opx;
   transform: rotate(0);
+  background-color: purple;
 }
  25% {
   border-radius: 50% 0 0 0;
   transform: rotate(45deg);
+  background-color: black;
  }
  50% {
     border-radius: 50% 50% 0 0;
-  transform: rotate(4deg);
+   transform: rotate(90deg);
+   background-color: red;
  }
  75% {
-
+   border-radius: 50% 50% 50% 0;
+  transform: rotate(135deg);
+  background-color: black;
  }
  100% {
-
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(180deg);
+  background-color: blue;
  }
 }
