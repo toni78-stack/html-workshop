@@ -13,4 +13,37 @@ img {
   width: 100%;
 }
 
+.height100 {
+  height: 100vh;
+  padding: 100px;
+}
 
+.hero {
+  background-color: aquamarine;
+}
+
+.another-section {
+  background-color: darkcyan;
+}
+
+.one-more-section {
+  background-color: darkmagenta;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: auto;
+  animation: rotateBox;
+  animation-timeline: view;
+}
+
+.keyframes rotateBox {
+  0% {
+    transform: rotate(0deg) scale(0.3);
+  }
+  100$ {
+    transform: rotate(360deg) scale(2);
+  }
+}
