@@ -51,11 +51,11 @@ img {
 .textAnimation {
   text-align: center;
   font-size: 50px;
-  opacity: 0;
   animation: fadeInText linear both;
+  animation-fill-mode: both;
   animation-timeline: view();
   animation-range: entry 150px;
-  animation-range-end: exit 200px;
+  animation-range-end: exit -200px;
 }
 
 @keyframes fadeInText {
