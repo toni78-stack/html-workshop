@@ -66,3 +66,11 @@ img {
     opacity: 1;
   }
 }
+
+.timelineBlog {
+  height: 100px;
+  background-color: green;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
