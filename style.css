@@ -72,5 +72,16 @@ img {
   background-color: green;
   position: fixed;
   top: 0;
-  width: 100%;
+  animation: fillIn linear;
+  animation-timeline: scroll();
+  z-index: 10;
+}
+
+@keyframes fillIn {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
