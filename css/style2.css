@@ -6,4 +6,19 @@
 
 body {
   background-color: black;
+  font-family: "Hanken Grotesk", sans-serif;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+header {
+  padding: 50px 0;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
 }
