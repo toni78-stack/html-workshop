@@ -12,6 +12,7 @@ body {
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 header {
@@ -21,4 +22,16 @@ header {
 .main-navigation {
   display: flex;
   justify-content: space-between;
+}
+
+.main-navigation nav {
+  display: flex;
+  gap: 40px;
+  border: 1px solid #1c1c1c;
+  padding: 15px 50px;
+  border-radius: 30px;
+}
+
+.main-navigation nav a {
+  color: #1f8053;
 }
