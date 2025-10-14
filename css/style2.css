@@ -33,5 +33,21 @@ header {
 }
 
 .main-navigation nav a {
+  transition: 0.3s;
+}
+
+.main-navigation nav a:hover {
   color: #1f8053;
+}
+
+.secondary-cta-btn {
+  padding: 15px 20px;
+  border: 1px solid #1c1c1c;
+  border-radius: 30px;
+  display: flex;
+}
+
+.secondary-cta-btn:hover {
+  border-color: #1f8053;
+  transition: 0.3s;
 }
