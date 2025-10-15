@@ -58,6 +58,14 @@ header {
   gap: 5px;
 }
 
+.btn-arrow-wrapper {
+  overflow: hidden;
+}
+
 .btn-arrow-wrapper img {
-  transform: rotate(-45deg);
+  transform: translate(0, 0) rotate(-45deg);
+}
+
+a:hover .btn-arrow-wrapper img {
+  transform: translate(100%, -100%) rotate(-45deg);
 }
