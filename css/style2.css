@@ -45,9 +45,19 @@ header {
   border: 1px solid #1c1c1c;
   border-radius: 30px;
   display: flex;
+  gap: 5px;
 }
 
 .secondary-cta-btn:hover {
   border-color: #1f8053;
   transition: 0.3s;
+}
+
+.cta-btn {
+  display: flex;
+  gap: 5px;
+}
+
+.btn-arrow-wrapper img {
+  transform: rotate(-45deg);
 }
