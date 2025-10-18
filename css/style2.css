@@ -45,6 +45,7 @@ header {
   border: 1px solid #1c1c1c;
   border-radius: 30px;
   display: flex;
+  align-items: center;
   gap: 5px;
 }
 
@@ -55,11 +56,14 @@ header {
 
 .cta-btn {
   display: flex;
+  align-items: center;
   gap: 5px;
 }
 
 .btn-arrow-wrapper {
   overflow: hidden;
+  width: 17px;
+  height: 17px;
 }
 
 .btn-arrow-wrapper img {
@@ -67,5 +71,20 @@ header {
 }
 
 a:hover .btn-arrow-wrapper img {
-  transform: translate(100%, -100%) rotate(-45deg);
+  animation: arrow-moving 0.3s linear;
+}
+
+@keyframes arrow-moving {
+  0% {
+    transform: translate(0, 0) rotate(-45deg);
+  }
+  45% {
+    transform: translate(100%, -100%) rotate(-45deg);
+  }
+  50% {
+    transform: translate(-100%, 100%) rotate(-45deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(-45deg);
+  }
 }
