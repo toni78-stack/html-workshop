@@ -15,6 +15,12 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 1530px;
+  margin: auto;
+  padding: 0 10;
+}
+
 header {
   padding: 50px 0;
 }
@@ -55,7 +61,8 @@ header {
   transition: 0.3s;
 }
 
-.secondary-cta-btn .inner-glow {
+.secondary-cta-btn::before {
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -66,7 +73,7 @@ header {
   transition: 0.3s;
 }
 
-.secondary-cta-btn:hover .inner-glow {
+.secondary-cta-btn:hover::before {
   background: linear-gradient(
     90deg,
     rgba(0, 0, 0, 0) 0%,
@@ -76,6 +83,13 @@ header {
 }
 
 .cta-btn {
+  display: inline-block;
+  background-color: #1f8053;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.cta-btn .black-btn-bg {
   display: flex;
   align-items: center;
   gap: 5px;
