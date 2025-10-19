@@ -84,7 +84,11 @@ header {
 
 .cta-btn {
   display: inline-block;
-  background-color: #1f8053;
+  background: linear-gradient(
+    90deg,
+    rgba(31, 128, 83, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
   padding: 20px;
   border-radius: 30px;
 }
@@ -93,6 +97,8 @@ header {
   display: flex;
   align-items: center;
   gap: 5px;
+  background-color: black;
+  padding: 15px 20px;
 }
 
 .btn-arrow-wrapper {
