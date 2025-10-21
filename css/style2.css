@@ -50,6 +50,7 @@ header {
   padding: 15px 20px;
   border: 1px solid #1c1c1c;
   border-radius: 30px;
+  transition: 0.3s;
   display: flex;
   align-items: center;
   gap: 5px;
@@ -60,6 +61,11 @@ header {
   border-color: #1f8053;
   transition: 0.3s;
 }
+
+.secondary-cta-btn img {
+  transform: rotate(-45deg);
+}
+]
 
 .secondary-cta-btn::before {
   content: "";
@@ -72,6 +78,8 @@ header {
   width: 100%;
   transition: 0.3s;
 }
+
+
 
 .secondary-cta-btn:hover::before {
   background: linear-gradient(
@@ -87,9 +95,9 @@ header {
   background: linear-gradient(
     90deg,
     rgba(31, 128, 83, 1) 0%,
-    rgba(0, 0, 0, 0) 100%
+    rgba(0, 0, 0, 0) 50px
   );
-  padding: 20px;
+  padding: 2px;
   border-radius: 30px;
 }
 
@@ -99,6 +107,15 @@ header {
   gap: 5px;
   background-color: black;
   padding: 15px 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 20px 0 rgba(31, 128, 83, 0.7);
+}
+
+.cta-btn:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(31, 128, 83, 1) 0%,
+    rgba(31, 128, 83, 1) 100%;
 }
 
 .btn-arrow-wrapper {
