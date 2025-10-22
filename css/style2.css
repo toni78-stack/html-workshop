@@ -65,7 +65,6 @@ header {
 .secondary-cta-btn img {
   transform: rotate(-45deg);
 }
-]
 
 .secondary-cta-btn::before {
   content: "";
@@ -78,8 +77,6 @@ header {
   width: 100%;
   transition: 0.3s;
 }
-
-
 
 .secondary-cta-btn:hover::before {
   background: linear-gradient(
@@ -115,7 +112,8 @@ header {
   background: linear-gradient(
     90deg,
     rgba(31, 128, 83, 1) 0%,
-    rgba(31, 128, 83, 1) 100%;
+    rgba(31, 128, 83, 1) 100%
+  );
 }
 
 .btn-arrow-wrapper {
@@ -129,6 +127,7 @@ header {
 }
 
 a:hover .btn-arrow-wrapper img {
+  transform: translate(100%, -100%) rotate(-45deg);
   animation: arrow-moving 0.3s linear;
 }
 
