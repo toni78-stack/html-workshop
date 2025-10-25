@@ -134,3 +134,15 @@ a:hover .btn-arrow-wrapper img {
   transform: translate(100%, -100%) rotate(-45deg);
   animation: arrow-moving 0.3s linear;
 }
+
+.hero video {
+  transform: rotate(180deg);
+}
+
+.hero .video-wrapper {
+  position: absolute;
+}
+
+.hero .hero-content {
+  position: relative;
+}
