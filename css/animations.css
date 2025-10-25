@@ -1,0 +1,26 @@
+@keyframes arrow-moving {
+  0% {
+    transform: translate(0, 0) rotate(-45deg);
+  }
+  45% {
+    transform: translate(100%, -100%) rotate(-45deg);
+  }
+  50% {
+    transform: translate(-100%, 100%) rotate(-45deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(-45deg);
+  }
+}
+
+@keyframes pulse-shadow {
+  0% {
+    box-shadow: 0 0 20px 0 rgba(31, 128, 83, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 20px 5px rgba(31, 128, 83, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 20px 0 rgba(31, 128, 83, 0.7);
+  }
+}

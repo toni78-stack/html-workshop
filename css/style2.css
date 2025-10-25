@@ -18,7 +18,7 @@ a {
 .container {
   max-width: 1530px;
   margin: auto;
-  padding: 0 10;
+  padding: 0 10px;
 }
 
 header {
@@ -116,6 +116,10 @@ header {
   );
 }
 
+.cta-btn:hover .black-btn-bg {
+  animation: pulse-shadow 1.5s infinite;
+}
+
 .btn-arrow-wrapper {
   overflow: hidden;
   width: 17px;
@@ -129,19 +133,4 @@ header {
 a:hover .btn-arrow-wrapper img {
   transform: translate(100%, -100%) rotate(-45deg);
   animation: arrow-moving 0.3s linear;
-}
-
-@keyframes arrow-moving {
-  0% {
-    transform: translate(0, 0) rotate(-45deg);
-  }
-  45% {
-    transform: translate(100%, -100%) rotate(-45deg);
-  }
-  50% {
-    transform: translate(-100%, 100%) rotate(-45deg);
-  }
-  100% {
-    transform: translate(0, 0) rotate(-45deg);
-  }
 }
