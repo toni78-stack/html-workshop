@@ -1,3 +1,11 @@
+:root {
+  --text-color: #c6c6c6;
+  --green-color: #1f8053; 
+  --black-color: black;
+  --white-color: white;
+  border-color: #1c1c1c;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,13 +13,13 @@
 }
 
 body {
-  background-color: black;
+  background-color: var(--black-colors);
   font-family: "Hanken Grotesk", sans-serif;
-  color: white;
+  color: var(--text color);
 }
 
 a {
-  color: white;
+  color: var(--white color);
   text-decoration: none;
 }
 
@@ -39,7 +47,7 @@ header {
 .main-navigation nav {
   display: flex;
   gap: 40px;
-  border: 1px solid #1c1c1c;
+  border: 1px solid var(--border color);
   padding: 15px 50px;
   border-radius: 30px;
 }
@@ -182,7 +190,7 @@ a:hover .btn-arrow-wrapper img {
   font-size: 9.375rem;
   font-weight: 800;
   line-height: 1.2;
-  background: linear-gradient(90deg, rgba(150 209 76 1) 0%, rgba(198 198 198 1) 50%, rgba((150 209 76 1) -100%);
+  background: linear-gradient(90deg, rgba(150, 209, 76, 1) 0%, rgba(198, 198, 198 1) 50%, rgba((150 209 76 1) -100%);
   color: transparent;
   background-clip: text;
 }
