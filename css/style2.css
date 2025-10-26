@@ -24,6 +24,11 @@ a {
 header {
   padding: 50px 0;
   position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 99;
+  width: 100%;
 }
 
 .main-navigation {
@@ -162,7 +167,7 @@ a:hover .btn-arrow-wrapper img {
 
 .hero .video-wrapper {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
   bottom: 0;
   width: 70%;
 }
@@ -185,4 +190,9 @@ a:hover .btn-arrow-wrapper img {
     rgba(0, 0, 0, 1) 0%,
     rgba(0, 0, 0, 0.3) 100%
   );
+}
+
+.hero .hero-lines {
+  position: absolute;
+  z-index: 1;
 }
