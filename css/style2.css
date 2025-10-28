@@ -3,7 +3,9 @@
   --green-color: #1f8053; 
   --black-color: black;
   --white-color: white;
-  border-color: #1c1c1c;
+  --border-color: #1c1c1c;
+  --rgb-black: 0, 0, 0;
+  --rgb-green: 31, 128, 83;
 }
 
 * {
@@ -95,9 +97,9 @@ header {
 .secondary-cta-btn:hover::before {
   background: linear-gradient(
     90deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(31, 128, 83, 0.3) 50%,
-    rgba(0, 0, 0, 0) 100%
+    rgba(var(--rgb-black), 0) 0%,
+    rgba(var(--rgb-green), 0.3) 50%,
+    rgba(var(--rgb-black), 0) 100%
   );
 }
 
@@ -105,8 +107,8 @@ header {
   display: inline-block;
   background: linear-gradient(
     90deg,
-    rgba(31, 128, 83, 1) 0%,
-    rgba(0, 0, 0, 0) 50px
+    rgba(var(--rgb-green), 1) 0%,
+    rgba(var(--rgb-black), 0) 50px
   );
   padding: 2px;
   border-radius: 30px;
@@ -119,14 +121,14 @@ header {
   background-color: black;
   padding: 15px 20px;
   border-radius: 30px;
-  box-shadow: 0 0 20px 0 rgba(31, 128, 83, 0.7);
+  box-shadow: 0 0 20px 0 rgba(var(--rgb-green, 0.7);
 }
 
 .cta-btn:hover {
   background: linear-gradient(
     90deg,
-    rgba(31, 128, 83, 1) 0%,
-    rgba(31, 128, 83, 1) 100%
+    rgba(var(--rgb-green), 1) 0%,
+    rgba(var(--rgb-green), 1) 100%
   );
 }
 
@@ -164,7 +166,7 @@ a:hover .btn-arrow-wrapper img {
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(var(--rgb-black), 0.3);
   z-index: 2;
 }
 
@@ -210,8 +212,8 @@ a:hover .btn-arrow-wrapper img {
   height: 100%;
   background: linear-gradient(
     0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 0.3) 100%
+    rgba(var(--rgb-black), 1) 0%,
+    rgba(var(--rgb-black), 0.3) 100%
   );
 }
 
