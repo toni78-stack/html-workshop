@@ -15,13 +15,13 @@
 }
 
 body {
-  background-color: var(--black-colors);
+  background-color: var(--black-color);
   font-family: "Hanken Grotesk", sans-serif;
   color: var(--text color);
 }
 
 a {
-  color: var(--white color);
+  color: var(--white-color);
   text-decoration: none;
 }
 
@@ -49,7 +49,7 @@ header {
 .main-navigation nav {
   display: flex;
   gap: 40px;
-  border: 1px solid var(--border color);
+  border: 1px solid var(--border-color);
   padding: 15px 50px;
   border-radius: 30px;
 }
@@ -199,8 +199,17 @@ a:hover .btn-arrow-wrapper img {
 
 .hero .hero-content h2 {
   font-size: 1.785rem;
-  font-weight: 400;
-  line-height: 1;
+    font-weight: 400;
+    line-height: 1;
+}
+  
+  
+
+  .hero .hero-content p {
+    font: 1.5rem;
+    max-width: 880px;
+    font-weight: 300;
+  }
 
 .hero .video-wrapper .video-overlay {
   position: absolute;
